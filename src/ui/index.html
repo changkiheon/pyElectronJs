@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Koffee Data</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css"> <!--Theme Cyborg from https://bootswatch.com/-->
+    <link rel="stylesheet" href="./css/style.css"> 
+</head>
+<body>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-md-6 p4 my-auto">
+                <form class="card card-body" id="myform">
+                    <div class="form-group">
+                        <input type="text" id="title" placeholder="Please Enter Title" class="form-control" autofocus>
+                    </div>
+                    <div class="form-control">
+                        <textarea id="description" rows="10" cols="36">
+
+                        </textarea>
+                    </div>
+                    <button class="btn btn-success">Save</button>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div id="articles">
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src = "./app.js"></script>
+</body>
+</html>
